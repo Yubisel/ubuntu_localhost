@@ -1,0 +1,92 @@
+/* Ing. Yubisel Vega Alvarez */
+
+
+/* yubiselv@gmail.com */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    padding-bottom: 4.5rem;
+    background-color: #9A9A9A;
+}
+
+.main {
+    margin-bottom: 4.5rem;
+    min-height: 100%;
+    padding-top: 4.5rem;
+    padding-bottom: 1rem;
+    background-color: #fff;
+    border: 1px solid #6A6A6A;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-dark {
+    background-color: rgba(0, 0, 0, .85);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+}
+
+a:active,
+a:link,
+a:hover,
+a:focus {
+    outline: none;
+}
+
+.list-group-item {
+    padding: .250rem .75rem;
+}
+
+a .fa {
+    color: #007bff;
+}
+
+.list-group a.list-group-item:hover .fa {
+    padding-right: 8px;
+    transition: all 0.5s ease;
+}
+
+.mod.mod-enabled {
+    background-color: #343a40;
+    color: #fff;
+}
+
+.footer {
+    font-size: .8em;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #dbdbdb;
+    border: 1px solid #6A6A6A;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+.list-group a.list-group-item {
+    background-size: 300% 100%;
+    background-position: 74% 0;
+    /*color: #9d9d9d;*/
+    background: linear-gradient(left, #3073AD 0%, #3073AD 50%, transparent 0%);
+    background-image: -webkit-linear-gradient(left, #3073AD 0%, #3073AD 50%, transparent 0%);
+    background-image: -moz-linear-gradient(left, #3073AD 0%, #3073AD 50%, transparent 0%);
+    background-image: -o-linear-gradient(left, #3073AD 0%, #3073AD 50%, transparent 0%);
+    background-image: -ms-linear-gradient(left, #3073AD 0%, #3073AD 50%, transparent 0%);
+    background-image: linear-gradient(left, #3073AD 0%, #3073AD 50%, transparent 0%);
+    -svg-background: linear-gradient(left, #3073AD 0%, #3073AD 50%, transparent 0%);
+    -webkit-transition: 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) all;
+    -moz-transition: 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) all;
+    transition: 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) all;
+}
+
+.list-group a.list-group-item:hover,
+.list-group a.list-group-item:hover .fa {
+    color: #ffffff;
+    background-position: 0 0;
+}
